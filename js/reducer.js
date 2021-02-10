@@ -6,6 +6,11 @@ function dispatch(action){
 }
 
 let state;
+let button = document.getElementById('button');
+
+button.addEventListener('click', () => {
+  dispatch({type: 'INCREASE_COUNT'})
+})
  
 function reducer(state = {count: 0}, action){
   switch (action.type) {
