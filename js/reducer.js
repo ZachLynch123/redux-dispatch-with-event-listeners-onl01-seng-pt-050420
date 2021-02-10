@@ -1,4 +1,9 @@
 // add code snippets from README
+
+function dispatch(action){
+  state = reducer(state, action);
+}
+
 let state = {count: 0}
  
 function reducer(state, action){
