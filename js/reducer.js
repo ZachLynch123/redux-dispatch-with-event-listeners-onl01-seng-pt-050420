@@ -14,3 +14,8 @@ function reducer(state, action){
       return state;
   }
 }
+
+function render() {
+  let container = document.getElementById('container');
+  container.textContent = state.count;
+}
