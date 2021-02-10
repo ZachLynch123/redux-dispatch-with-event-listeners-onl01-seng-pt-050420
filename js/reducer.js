@@ -2,6 +2,7 @@
 
 function dispatch(action){
   state = reducer(state, action);
+  render()
 }
 
 let state = {count: 0}
